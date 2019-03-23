@@ -13,7 +13,6 @@ def main():
         input_ = input().split(" ")
         r = int(input_[0])
         n = int(input_[1])
-
         area = r**2
         area += calc(r/2, n-1) * 4
 
